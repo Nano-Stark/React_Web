@@ -1,0 +1,1 @@
+web: node ./websiteBackend/server/server.js
