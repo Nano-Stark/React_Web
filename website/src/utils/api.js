@@ -8,7 +8,7 @@ let host;
 if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
-    host = 'https://stark-website.herokuapp.com';//host address
+    host = 'https://starkweb.herokuapp.com';//host address
 }
 
 const API  = {
