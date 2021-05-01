@@ -21,6 +21,8 @@ class PageWrapper extends Component {
                                 <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/team">Team</Link></li>
                                 <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/blog">Blog</Link></li>
                                 <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link></li>
+                                <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/admin">Admin</Link></li>
+                                <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/signup">Signup</Link></li>
                             </ul>
                         </div>
                     </div>
