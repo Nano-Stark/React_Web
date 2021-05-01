@@ -1,15 +1,13 @@
-const { host_, port_, mongouri, database_, password_, user_ } = require("./config");
-
 module.exports = {
-    "db": {
-        "host": host_,
-        "port": port_,
-        "url": mongouri,
-        "database": database_,
-        "password": password_,
+    db: {
+        "host": process.env.HOST_,
+        "port": process.env.PORT_,
+        "url": process.env.MONGODB_URI,
+        "database": process.env.DATABASE,
+        "password": process.env.PASSWORD,
         "name": "db",
-        "user": user_,
+        "user": process.env.USER,
         "useNewUrlParser": true,
         "connector": "mongodb"
-        } 
+        }
 }
